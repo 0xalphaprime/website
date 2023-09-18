@@ -201,15 +201,22 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <h3 class="float-md-start mb-0">paino.io</h3>
+          <h3 class="float-md-start mb-0">Paino.io</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="#"
+            <a
+              class="nav-link fw-bold py-1 px-0"
+              aria-current="page"
+              href="{% url 'portfolio' %}"
               >~ / alpha_prime</a
             >
             <a class="nav-link fw-bold py-1 px-0" href="#"
               >~ / prime_surgical</a
             >
-            <a class="nav-link fw-bold py-1 px-0" href="#">~ / github</a>
+            <a
+              class="nav-link fw-bold py-1 px-0"
+              href="https://github.com/0xalphaprime"
+              >~ / github</a
+            >
           </nav>
         </div>
       </header>
@@ -221,7 +228,9 @@
           to master the mind seems as difficult as to master the mighty winds.”
         </p>
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-info fw-bold border-white"
+          <a
+            href="{% url 'portfolio' %}"
+            class="btn btn-lg btn-info fw-bold border-white"
             >Stay Curious</a
           >
         </p>

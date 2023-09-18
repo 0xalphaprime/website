@@ -17,11 +17,11 @@
     <nav class="navbar bg-body-tertiary rounded">
       <div class="container">
         <a class="navbar-brand">
-        <button class="btn btn-outline-info" type="button">paino.io</button>
+        <a href="{% url 'index' %}" class="btn btn-outline-info" role="button">Paino.io</a>
        </a>
         <div class="btn-group ms-auto">
-          <button class="btn btn-primary me-2" type="button">masterQuest</button>
-          <button class="btn btn-primary" type="button">Prime Surgical</button>
+          <a href="{% url 'portfolio' %}" class="btn btn-primary me-2" role="button">alpha_prime</a>
+          <a href="{% url 'index' %}" class="btn btn-primary" role="button">prime_surgical</a>
       </div>
       </div>
     </nav>

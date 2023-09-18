@@ -22,4 +22,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("gpt/", include("build_gpt_from_home.urls"), name="gpt"),
     path("", TemplateView.as_view(template_name="index.html"), name="index"),
+    path("pong/", include("pong.urls")),
+    path("portfolio/", include("alphaprime_portfolio.urls")),
 ]
+

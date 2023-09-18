@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'build_gpt_from_home',
+    'pong',
+    'alphaprime_portfolio',
 ]
 
 MIDDLEWARE = [
