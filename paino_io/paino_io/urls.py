@@ -24,5 +24,7 @@ urlpatterns = [
     path("", TemplateView.as_view(template_name="index.html"), name="index"),
     path("pong/", include("pong.urls")),
     path("portfolio/", include("alphaprime_portfolio.urls")),
+    path("prime/", include("prime_portfolio.urls")),
+    path("zb/", include("zb_dashboard.urls")),
 ]
 

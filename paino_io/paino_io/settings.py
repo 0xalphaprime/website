@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'build_gpt_from_home',
     'pong',
     'alphaprime_portfolio',
+    'prime_portfolio',
+    'zb_dashboard',
 ]
 
 MIDDLEWARE = [
